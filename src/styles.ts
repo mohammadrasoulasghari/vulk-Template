@@ -1,0 +1,6 @@
+import '@fontsource-variable/roboto-flex'
+import '@fontsource-variable/montserrat'
+import 'vazirmatn/misc/Farsi-Digits/Vazirmatn-FD-font-face.css'
+import '@vueform/slider/themes/default.scss'
+import 'vue3-carousel/dist/carousel.css'
+import './scss/main.scss'

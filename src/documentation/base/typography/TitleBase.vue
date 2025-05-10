@@ -1,0 +1,159 @@
+<script setup lang="ts">
+import { titleProps, title } from '/@src/data/docs/base/typography'
+</script>
+
+<template>
+  <Section
+    id="title-base-demo"
+    bordered-bottom
+  >
+    <Container>
+      <div class="mx-auto max-w-8">
+        <div class="pt-4 pb-6">
+          <DemoTitle
+            title="عنوان"
+            subtitle="سبک‌های مختلف کامپوننت عنوان"
+          />
+          <div class="columns pt-4">
+            <div class="column is-6">
+              <Title
+                tag="h1"
+                :size="1"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="2"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="3"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="4"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="5"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="6"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+            </div>
+            <div class="column is-6">
+              <Title
+                tag="h1"
+                :size="1"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="2"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h2"
+                :size="3"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h3"
+                :size="4"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h3"
+                :size="5"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+              <Title
+                tag="h3"
+                :size="6"
+                weight="thin"
+                leading
+              >
+                این یک عنوان می‌باشد
+              </Title>
+            </div>
+          </div>
+        </div>
+
+        <DemoTabs>
+          <template #code>
+            <PrismCode
+              language="html"
+              :code="title"
+            />
+          </template>
+          <template #props>
+            <PrismCode
+              language="javascript"
+              :code="titleProps"
+            />
+          </template>
+          <template #sample>
+            <div class="empty-text">
+              <p class="paragraph rem-95">
+                نمونه داده‌ای برای این مؤلفه موجود نیست
+              </p>
+            </div>
+          </template>
+          <template #usage>
+            <p class="paragraph rem-95">
+              ولک یک کامپوننت عنوان ارائه می‌دهد که می‌توانید با اطمینان در تمام
+              بخش‌های برنامه خود از آن استفاده کنید. این کامپوننت بسیاری از
+              props را ارائه می‌دهد تا بتوانید هر جنبه‌ای از آن را کنترل کنید،
+              مانند
+              <code>size</code>
+              ،
+              <code>weight</code>
+              ، فاصله‌ها و حتی
+              <code>tag</code>
+              مربوط به HTML. به طور پیش‌فرض، عناوین دارای فاصله پایین
+              <code>1.5rem</code>
+              هستند. برای تغییر این رفتار از props
+              <code>narrow</code>
+              و
+              <code>leading</code>
+              استفاده کنید.
+            </p>
+          </template>
+        </DemoTabs>
+      </div>
+    </Container>
+  </Section>
+</template>

@@ -1,0 +1,224 @@
+[
+  {
+    "name": "بررسی اجمالی",
+    "category": "پروفایل",
+    "displayOrder": 1,
+    "new": true,
+    "route": {
+      "name": "profile",
+      "path": "/profile"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/profile-overview.png",
+      "dark": "/assets/screenshots/profile-overview-dark.png"
+    }
+  },
+  {
+    "name": "پروژه‌ها",
+    "category": "پروفایل",
+    "displayOrder": 1,
+    "new": true,
+    "route": {
+      "name": "profile-projects",
+      "path": "/profile/projects"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/profile-projects.png",
+      "dark": "/assets/screenshots/profile-projects-dark.png"
+    }
+  },
+  {
+    "name": "شبکه",
+    "category": "پروفایل",
+    "displayOrder": 1,
+    "new": true,
+    "route": {
+      "name": "profile-network",
+      "path": "/profile/network"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/profile-network.png",
+      "dark": "/assets/screenshots/profile-network-dark.png"
+    }
+  },
+  {
+    "name": "جزئیات شغل",
+    "category": "مشاغل",
+    "displayOrder": 1,
+    "new": false,
+    "route": {
+      "name": "subpages-jobs-slug",
+      "path": "/subpages/jobs/backend-developer",
+      "params": {
+        "slug": "backend-developer"
+      }
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/job-details.png",
+      "dark": "/assets/screenshots/job-details-dark.png"
+    }
+  },
+  {
+    "name": "فهرست NFT",
+    "category": "بازار",
+    "displayOrder": 2,
+    "new": false,
+    "route": {
+      "name": "subpages-nfts-nft-list",
+      "path": "/subpages/nfts/nft-list"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/nft-list.png",
+      "dark": "/assets/screenshots/nft-list-dark.png"
+    }
+  },
+  {
+    "name": "جزئیات NFT",
+    "category": "بازار",
+    "displayOrder": 3,
+    "new": false,
+    "route": {
+      "name": "subpages-nfts-slug",
+      "path": "/subpages/nfts/the-smoking-eagle",
+      "params": {
+        "slug": "the-smoking-eagle"
+      }
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/nft-details.png",
+      "dark": "/assets/screenshots/nft-details-dark.png"
+    }
+  },
+  {
+    "name": "مرکز راهنمایی",
+    "category": "پشتیبانی",
+    "displayOrder": 4,
+    "new": false,
+    "route": {
+      "name": "subpages-help",
+      "path": "/subpages/help"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/help-center-home.png",
+      "dark": "/assets/screenshots/help-center-home-dark.png"
+    }
+  },
+  {
+    "name": "دسته راهنما",
+    "category": "پشتیبانی",
+    "displayOrder": 5,
+    "new": false,
+    "route": {
+      "name": "subpages-help-category-slug",
+      "path": "/subpages/help/category/project-module-category",
+      "params": {
+        "slug": "project-module-category"
+      }
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/help-center-category.png",
+      "dark": "/assets/screenshots/help-center-category-dark.png"
+    }
+  },
+  {
+    "name": "مقاله راهنما",
+    "category": "پشتیبانی",
+    "displayOrder": 6,
+    "new": false,
+    "route": {
+      "name": "subpages-help-category-article-slug",
+      "path": "/subpages/help/category/article/managing-tasks",
+      "params": {
+        "slug": "managing-tasks"
+      }
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/help-center-article.png",
+      "dark": "/assets/screenshots/help-center-article-dark.png"
+    }
+  },
+  {
+    "name": "مخاطب ۱",
+    "category": "مخاطب",
+    "displayOrder": 7,
+    "new": false,
+    "route": {
+      "name": "subpages-contact",
+      "path": "/subpages/contact"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/contact-1.png",
+      "dark": "/assets/screenshots/contact-1-dark.png"
+    }
+  },
+  {
+    "name": "مخاطب ۲",
+    "category": "مخاطب",
+    "displayOrder": 8,
+    "new": false,
+    "route": {
+      "name": "subpages-contact-contact-2",
+      "path": "/subpages/contact/contact-2"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/contact-2.png",
+      "dark": "/assets/screenshots/contact-2-dark.png"
+    }
+  },
+  {
+    "name": "مخاطب ۳",
+    "category": "تماس",
+    "displayOrder": 9,
+    "new": false,
+    "route": {
+      "name": "subpages-contact-contact-3",
+      "path": "/subpages/contact/contact-3"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/contact-3.png",
+      "dark": "/assets/screenshots/contact-3-dark.png"
+    }
+  },
+  {
+    "name": "شرایط استفاده از خدمات",
+    "category": "شرایط استفاده از خدمات",
+    "displayOrder": 10,
+    "new": false,
+    "route": {
+      "name": "subpages-terms",
+      "path": "/subpages/terms"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/terms-1.png",
+      "dark": "/assets/screenshots/terms-1-dark.png"
+    }
+  },
+  {
+    "name": "۴۰۴ نسخه ۱",
+    "category": "خطا",
+    "displayOrder": 12,
+    "new": false,
+    "route": {
+      "name": "all",
+      "path": "/not-found"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/404-1.png",
+      "dark": "/assets/screenshots/404-1-dark.png"
+    }
+  },
+  {
+    "name": "۴۰۴ نسخه ۲",
+    "category": "خطا",
+    "displayOrder": 11,
+    "new": false,
+    "route": {
+      "name": "subpages-error",
+      "path": "/subpages/error"
+    },
+    "screenshot": {
+      "light": "/assets/screenshots/404-2.png",
+      "dark": "/assets/screenshots/404-2-dark.png"
+    }
+  }
+]

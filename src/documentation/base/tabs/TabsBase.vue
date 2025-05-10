@@ -1,0 +1,95 @@
+<script setup lang="ts">
+import { tabsProps, tabsBase } from '/@src/data/docs/base/tabs'
+</script>
+
+<template>
+  <Section
+    id="tabs-base-demo"
+    bordered-bottom
+  >
+    <Container>
+      <div class="mx-auto max-w-6">
+        <div class="pt-4 pb-6">
+          <DemoTitle
+            title="تب‌ها"
+            subtitle="سبک‌های مختلف تب‌های پایه"
+          />
+          <div class="pt-4">
+            <Tabs
+              selected="overview"
+              :tabs="[
+                { label: 'بررسی اجمالی', value: 'overview' },
+                { label: 'تیم', value: 'team' },
+                { label: 'بودجه', value: 'budget' },
+              ]"
+            >
+              <template #tab="{ activeValue }">
+                <p
+                  v-if="activeValue === 'overview'"
+                  class="paragraph"
+                >
+                  لورم ایپسوم دولور سیت آمِت، کانسکتتور آدپیسیسینگ الیت. کید
+                  یودیکانت سنسوس؟ پریموم کید تو دیکیس بریوه؟ اتیام بیتیسیموم؟ نه
+                  دیسکیپولوم ابدوکام، تیمس. کوا دلیگنتیسیما کانترا آریستونم
+                  دیکنتور آ کوریپپو. دو رگس: کنتراستیو اینترتی.
+                </p>
+                <p
+                  v-else-if="activeValue === 'team'"
+                  class="paragraph"
+                >
+                  لورم ایپسوم دولور سیت آمِت، کانسکتتور آدپیسیسینگ الیت. کید
+                  یودیکانت سنسوس؟ پریموم کید تو دیکیس بریوه؟ اتیام بیتیسیموم؟ نه
+                  دیسکیپولوم ابدوکام، تیمس. کوا دلیگنتیسیما کانترا آریستونم
+                  دیکنتور آ کوریپپو. دو رگس: کنتراستیو اینترتی.
+                </p>
+                <p
+                  v-else-if="activeValue === 'budget'"
+                  class="paragraph"
+                >
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می‌باشد.
+                </p>
+              </template>
+            </Tabs>
+          </div>
+        </div>
+
+        <DemoTabs>
+          <template #code>
+            <PrismCode
+              language="html"
+              :code="tabsBase"
+            />
+          </template>
+          <template #props>
+            <PrismCode
+              language="javascript"
+              :code="tabsProps"
+            />
+          </template>
+          <template #sample>
+            <div class="empty-text">
+              <p class="paragraph rem-95">
+                نمونه داده‌ای برای این مؤلفه موجود نیست
+              </p>
+            </div>
+          </template>
+          <template #usage>
+            <p class="paragraph rem-95">
+              Tabs are a very common UI element in modern websites and
+              applications. Vulk tabs are very simple to use and easily
+              customisable. Use the
+              <code>:tabs</code>
+              prop to define your tabs and the
+              <code>#tab</code>
+              slot to set your tab content. .
+            </p>
+          </template>
+        </DemoTabs>
+      </div>
+    </Container>
+  </Section>
+</template>

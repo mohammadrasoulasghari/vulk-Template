@@ -1,0 +1,7 @@
+{
+  "select-language": "انتخاب زبان",
+  "offline-ready": "{appName} آماده کار بصورت آفلاین می‌باشد",
+  "need-refresh": "نسخه‌ی جدیدی از {appName} در دسترس می‌باشد بر روی دکمه بارگذاری کلیک کنید تا نصب شود.",
+  "reload-button": "بارگذاری",
+  "close-button": "بستن"
+}
